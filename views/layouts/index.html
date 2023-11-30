@@ -26,13 +26,13 @@
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
     
-                <button type="submit">Login</button>
+                <button onclick="login()" type="submit">Login</button>
     
-                <p class="create-account">Don't have an account? <a href="#">Create one</a></p>
+                <p class="create-account">Don't have an account? <a onclick="toggleLogin()" href="#">Create one</a></p>
             </form>
         </div>
     </div>
-    <div class="signup-box" id="signup-box">
+     <div class="display-none" id="signup-box">
         <div class="signup-container">
             <form class="signup-form">
                 <h2>Create Account</h2>
@@ -43,11 +43,12 @@
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
     
-                <button type="submit">Create</button>
+                <button onclick="login()" type="submit">Create</button>
     
-                <p class="login-account">Already have an account? <a href="#">Login</a></p>
+                <p class="login-account">Already have an account? <a onclick="toggleLogin()" href="#">Login</a></p>
             </form>
         </div>
     </div>
+    <script src="../../controller.js"></script>
 </body>
 </html>

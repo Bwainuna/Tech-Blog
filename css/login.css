@@ -56,10 +56,6 @@ button:hover {
     text-decoration: underline;
 }
 
-.display-none {
-    display: none;
-}
-
 .signup-box {
     display: flex;
     justify-content: center;
